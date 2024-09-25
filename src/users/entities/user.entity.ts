@@ -27,7 +27,6 @@ export class User {
   })
   gender: Gender;
 
-  @Index()
   @Column({ type: 'boolean' })
   issues: boolean;
 }
